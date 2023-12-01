@@ -9,17 +9,17 @@ const blogdata = [
 
     },
     {
-        title: 'Sand + Sea = Summer',
-        user: 'S_Photo',
-        post_date: 'June 10, 2019',
-        content: 'This is the second post!',
+        title: 'The Birth',
+        user: 'BijanO',
+        post_date: 'December 7, 1069',
+        content: "Allah's strongest warrior",
 
     },
     {
-        title: 'Third box',
-        user: 'whaddup',
-        post_date: 'June 10, 2019',
-        content: 'This is the Third post!',
+        title: 'The Rumbling',
+        user: 'CadyT',
+        post_date: 'August 1, 854',
+        content: 'Shinzo wo Sasageyo!',
     },
 ];
 

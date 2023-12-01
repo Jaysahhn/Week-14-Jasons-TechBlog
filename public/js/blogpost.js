@@ -1,7 +1,5 @@
 const blogPostForm = document.querySelector('.blog-post-form');
 
-console.log("here i am!");
-
 const blogPostHandler = async (event) => {
     event.preventDefault();
 
@@ -19,8 +17,8 @@ const blogPostHandler = async (event) => {
             document.location.replace('/login');
         } else {
             console.log('Error posting blog');
-        };
-    };
+        }
+    }
 };
 
 blogPostForm.addEventListener('submit', blogPostHandler);
