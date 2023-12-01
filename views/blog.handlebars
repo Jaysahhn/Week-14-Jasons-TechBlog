@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{blog.title}} - Tech Blogger</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tech Blogger</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        {{#if loggedIn}}
+        <a href="/dashboard">Dashboard</a>
+        <button id="logout" class="btn-no-style">Logout</button>
+        {{else}}
+        <a href="/login">Login</a>
+        {{/if}}
+    </nav>
+    <main>
+        <div class="blog-details">
+            <h2>{{blog.title}}</h2>
+            <p class="user">Posted by: {{blog.User.username}} at {{format_date blog.post_date}}</p>
+            <p>{{blog.content}}</p>
+        </div>
+        {{#if loggedIn}}
+        <div class="post-section">
+            <h3>Posts</h3>
+            {{#each blog.Posts}}
+            <div class="post-card">
+                <h2 class="post-title">{{title}}</h2>
+                <p class="post-content">{{content}}</p>
+                <p class="post-author">Author: {{User.username}}</p>
+                <a href="/post/{{id}}">View Post</a>
+                <a href="/post/edit/{{id}}">Edit Post</a>
+            </div>
+            {{/each}}
+        </div>
+        {{/if}}
+    </main>
+    {{#if loggedIn}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
+</body>
+
+</html>
