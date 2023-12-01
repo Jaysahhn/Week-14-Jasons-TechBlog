@@ -2,9 +2,7 @@
 
 ## Description
 
-<!-- 
-FILL OUT LATER 
--->
+This challenge is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
 
 ## Installation
 
@@ -12,9 +10,12 @@ Node Package Manager (NPM), bcrypt, connect-session-sequelize, dotenv, express, 
 
 ## Usage
 
-<!-- 
-FILL OUT LATER 
--->
+Heroku
+
+Deployed application - 
+
+[Homepage](https://i.gyazo.com/8dd6d0fa3888538fe4518da42db80b30.png)
+[Login Page](https://i.gyazo.com/d27efdb77017872d172b6f7a09b0e329.png) 
 
 ## Credits
 
