@@ -15,7 +15,6 @@ document.getElementById('card-container').addEventListener('click', function (ev
                 }
             })
             .catch(function (error) {
-
                 console.error('Network error', error);
             });
     };
