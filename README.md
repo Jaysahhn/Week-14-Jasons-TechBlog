@@ -8,7 +8,7 @@ FILL OUT LATER
 
 ## Installation
 
-Node Package Manager (NPM), Express.js, dotenv, Sequelize, mysql2, bcrypt, handlebars
+Node Package Manager (NPM), bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, handlebars, mysql2, sequelize
 
 ## Usage
 
