@@ -3,7 +3,7 @@
     --secondary: #caf0e4;
     --tertiary: #2b8f7b;
     --quatrinary: #6c6b67;
-    --light: #35bacc;
+    --light: #c7e5c7;
     --dark: #182c23;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
@@ -27,8 +27,8 @@ a {
 header {
     padding: 40px;
     text-align: center;
-    background: var(--primary);
-    color: var(--light);
+    background: rgb(45, 28, 28);
+    color: #c7e5c7;
 }
 
 main {
@@ -47,7 +47,7 @@ aside {
 
 nav {
     display: flex;
-    background-color: var(--secondary);
+    background-color: rgb(45, 28, 28);
 }
 
 nav a {
@@ -64,7 +64,7 @@ nav a:hover {
 
 .blog {
     flex: 4;
-    background-color: #17b1cc;
+    background-color: rgb(199, 229, 199);
     padding: 50px;
     display: flex;
     flex-flow: column wrap;
@@ -107,7 +107,7 @@ img {
     flex: 0 1 300px;
     border: 7px double var(--dark);
     border-radius: 10px;
-    background-color: var(--error);
+    background-color: rgb(199, 229, 199);
     color: var(--dark);
 }
 
@@ -152,7 +152,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 2px 2px 5px var(--secondary);
-    background-color: #182c23;
+    background-color: rgb(45, 28, 28);
 }
 
 footer {
@@ -162,7 +162,7 @@ footer {
 
 .user {
     font-size: .9rem;
-    color: #3bd3db;
+    color: black;
 }
 
 /* LAYOUT */
