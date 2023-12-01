@@ -12,9 +12,9 @@ Node Package Manager (NPM), bcrypt, connect-session-sequelize, dotenv, express, 
 
 Heroku
 
-Deployed application - 
+Deployed application - https://whispering-castle-38897-158e1d07d805.herokuapp.com/
 
-[Homepage](https://i.gyazo.com/e9fb46b6d4829d642a560417f6e157b0.png)
+[Homepage](https://i.gyazo.com/e9fb46b6d4829d642a560417f6e157b0.png) || 
 [Login Page](https://i.gyazo.com/d27efdb77017872d172b6f7a09b0e329.png) 
 
 ## Credits
