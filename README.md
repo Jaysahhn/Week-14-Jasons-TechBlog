@@ -14,7 +14,7 @@ Heroku
 
 Deployed application - 
 
-[Homepage](https://i.gyazo.com/8dd6d0fa3888538fe4518da42db80b30.png)
+[Homepage](https://i.gyazo.com/e9fb46b6d4829d642a560417f6e157b0.png)
 [Login Page](https://i.gyazo.com/d27efdb77017872d172b6f7a09b0e329.png) 
 
 ## Credits
